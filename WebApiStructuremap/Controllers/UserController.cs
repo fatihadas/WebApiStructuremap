@@ -13,7 +13,7 @@ namespace WebApiStructuremap.Controllers
         public UserController(IUserService userService)
         {
             _userService = userService;
-        }
+        } 
 
         [HttpGet]
         public HttpResponseMessage GetUserFullNames()
